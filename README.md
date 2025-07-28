@@ -1,106 +1,71 @@
 # 🧠 HoloCam Studio - by Rafashacode.id
 
-HoloCam Studio adalah aplikasi interaktif yang memungkinkan kamu menggambar langsung dengan gerakan tangan menggunakan deteksi jari secara real-time. Dibangun dengan Python, OpenCV, dan MediaPipe dalam antarmuka grafis berbasis Tkinter.
+HoloCam Studio adalah aplikasi simpel yang bikin kamu bisa gambar langsung di layar cuma pakai gerakan tangan (lewat webcam). Cocok buat yang suka eksperimen AI, computer vision, atau sekadar iseng gambar-gambar. Dibuat pakai Python + OpenCV + MediaPipe.
 
 ---
 
 ## 🎯 Fitur Utama
 
-* Deteksi gerakan tangan menggunakan MediaPipe
-* Menggambar menggunakan gerakan jari (nonaktif jika jempol terbuka)
-* UI modern dengan antarmuka grafis Tkinter
-* Snapshot gambar yang dapat disimpan otomatis
-* Pilihan warna, ketebalan, dan opasitas garis
+* Deteksi jari otomatis pakai MediaPipe
+* Gambar muncul pas jempol kamu ditutup
+* UI simpel pake Tkinter
+* Bisa ambil snapshot hasil gambarmu
+* Pilih warna, ukuran garis, dan transparansi
 
 ---
 
-## 📦 Instalasi
+## ⚙️ Cara Instal & Jalankan
 
-### 1. Clone Repository:
+### 1. Download project-nya dulu:
 
 ```bash
 git clone https://github.com/rafashacodeid/holocam-studio.git
 cd holocam-studio
 ```
 
-### 2. Buat dan Aktifkan Virtual Environment (Opsional Tapi Disarankan):
-
-```bash
-python -m venv venv
-# Windows:
-venv\Scripts\activate
-# macOS/Linux:
-source venv/bin/activate
-```
-
-### 3. Install Semua Dependensi:
+### 2. Install kebutuhan:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Jika kamu tidak menggunakan `requirements.txt`, kamu bisa install manual:
+### 3. Jalankan aplikasinya:
 
 ```bash
-pip install opencv-python mediapipe pillow numpy
+python holocam.pyc
 ```
+
+> **Note:** File utama sudah dikompilasi jadi `.pyc`, jadi kamu tinggal run aja tanpa ngedit script-nya.
 
 ---
 
-## 🚀 Cara Menjalankan Aplikasi
-
-```bash
-python holocam.py
-```
-
-> **Pastikan kamera kamu aktif** dan memiliki izin akses.
-
----
-
-## 📁 Struktur Folder
+## 📁 Isi Folder (Singkatnya)
 
 ```
 holocam-studio/
-├── holocam.py
-├── snapshots/         # Folder tempat menyimpan snapshot
+├── __main__.pyc       # File utama (sudah di-compile)
+├── snapshots/          # Hasil gambar disimpan di sini
 ├── requirements.txt
 └── README.md
 ```
 
 ---
 
-## 🛠️ Penggunaan
+## ✅ Syarat Biar Bisa Jalan
 
-* Tekan tombol **Mulai Menggambar** untuk mengaktifkan kamera
-* Aktifkan mode menggambar, lalu arahkan jari telunjuk ke layar
-* Gambar akan muncul saat jempol kamu tertutup (gesture tertutup)
-* Gunakan slider untuk mengatur warna, ketebalan, dan opasitas
-* Tekan **Ambil Snapshot** untuk menyimpan hasilnya
+* Python 3.10 atau lebih baru
+* Webcam nyala & aktif
+* OS: Windows (rekomendasi), Linux/macOS juga bisa
 
 ---
 
-## ✅ Requirements
-
-* Python 3.8 atau lebih baru
-* Kamera aktif dan terhubung
-* Sistem operasi Windows/Linux/macOS
-
----
-
-## 🧑‍💻 Dibuat Oleh
+## 🙌 Dibuat Oleh
 
 **Rafashacode.id**
-
-Temukan lebih banyak tools menarik lainnya di: [https://github.com/rafashacodeid](https://github.com/rafashacodeid)
-
----
-
-## 💡 Tips
-
-* Gunakan lingkungan virtual agar dependensi tidak bentrok
-* Jalankan dari VS Code agar bisa debug dengan mudah
-* Simpan hasil karya kamu di folder `snapshots`
+Cari tools seru lainnya di: [https://github.com/rafashacodeid](https://github.com/rafashacodeid)
 
 ---
 
-Selamat mencoba! 🚀
+Coba aja dulu, dijamin seru. Jangan lupa bintangin repo ini ⭐ kalau kamu suka!
+
+Selamat Mencoba & ngelukis pakai tangan! 🎨🖐️

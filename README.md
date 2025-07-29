@@ -1,54 +1,78 @@
-🧠 HoloCam Studio - by Rafashacode.id
-HoloCam Studio adalah aplikasi simpel yang memungkinkan kamu menggambar langsung di layar hanya dengan gerakan tangan menggunakan webcam. Dibuat menggunakan Python, OpenCV, dan MediaPipe, aplikasi ini cocok untuk yang suka eksperimen AI, computer vision, atau sekadar iseng bikin karya seni digital.
-
-🎯 Fitur Utama
-
-✋ Deteksi jari otomatis dengan MediaPipe
-🖌️ Gambar muncul saat jempol ditutup
-🧱 UI simpel berbasis Tkinter
-📸 Fitur snapshot hasil gambar
-🎨 Pilihan warna, ukuran garis, dan transparansi
 
 
-⚙️ Cara Instalasi
-1. Pastikan Python 3.10+ sudah terinstal
-Download Python:➡️ https://www.python.org/downloads✅ Jangan lupa centang Add Python to PATH saat instalasi!
-2. Clone atau Download Project
-Pakai Git (disarankan):
+# 🧠 HoloCam Studio - by Rafashacode.id
+
+HoloCam Studio adalah aplikasi simpel yang bikin kamu bisa gambar langsung di layar cuma pakai gerakan tangan (lewat webcam). Cocok buat yang suka eksperimen AI, computer vision, atau sekadar iseng gambar-gambar. Dibuat pakai Python + OpenCV + MediaPipe.
+
+---
+
+## 🎯 Fitur Utama
+
+* Deteksi jari otomatis pakai MediaPipe
+* Gambar muncul pas jempol kamu ditutup
+* UI simpel pake Tkinter
+* Bisa ambil snapshot hasil gambarmu
+* Pilih warna, ukuran garis, dan transparansi
+
+---
+
+## ⚙️ Cara Instal & Jalankan
+
+### 1. Download project-nya dulu:
+
+```bash
 git clone https://github.com/rafashacodeid/holocam-studio.git
 cd holocam-studio
+```
 
-Kalau gagal git clone?Pastikan Git sudah diinstal: https://git-scm.com  
-Atau download manual (ZIP):➡️ https://github.com/rafashacodeid/holocam-studio/archive/refs/heads/main.zip
-3. Install Library yang Dibutuhkan
+### 2. Install kebutuhan:
+
+```bash
 pip install -r requirements.txt
+```
 
-4. Jalankan Aplikasi
-Opsi 1: Jalankan file utama hasil compile:
+### 3. Jalankan aplikasinya:
+
+```bash
 python holocam.pyc
+```
+atau
 
-Opsi 2: Jalankan alternatif index.py (jika disediakan):
+```bash
 python index.py
+```
 
+> **Note:** File utama sudah dikompilasi jadi `.pyc`, jadi kamu tinggal run aja tanpa ngedit script-nya.
 
-📁 Struktur Folder
+---
+
+## 📁 Isi Folder (Singkatnya)
+
+```
 holocam-studio/
-├── index.py           # File Python utama (opsional untuk dev)
-├── holocam.pyc        # File utama yang sudah dikompilasi
-├── snapshots/         # Folder hasil gambar
-├── requirements.txt   # Daftar library Python
-└── README.md          # Dokumentasi ini
+├── __main__.pyc       # File utama (sudah di-compile)
+├── snapshots/          # Hasil gambar disimpan di sini
+├── requirements.txt
+└── README.md
+```
 
+---
 
-✅ Spesifikasi Minimum
+## ✅ Syarat Biar Bisa Jalan
 
-Python 3.10 atau lebih baru
-Webcam aktif & terdeteksi
-Sistem Operasi: Windows (rekomendasi), Linux/macOS juga didukung
+* Python 3.10 atau lebih baru
+* Webcam nyala & aktif
+* OS: Windows (rekomendasi), Linux/macOS juga bisa
 
+---
 
-🙌 Dibuat Oleh
-Rafashacode.id📌 Temukan tools keren lainnya di:➡️ https://github.com/rafashacodeid
+## 🙌 Dibuat Oleh
 
-⭐ Jangan Lupa!
-Kalau suka dengan project ini, bantu kasih bintang repo-nya ya!Terima kasih & selamat menggambar pakai tangan 🎨🖐️
+**Rafashacode.id**
+Cari tools seru lainnya di: [https://github.com/rafashacodeid](https://github.com/rafashacodeid)
+
+---
+
+Coba aja dulu, dijamin seru. Jangan lupa bintangin repo ini ⭐ kalau kamu suka!
+
+Selamat Mencoba & ngelukis pakai tangan! 🎨🖐️
